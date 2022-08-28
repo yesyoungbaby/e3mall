@@ -1,0 +1,23 @@
+
+]
+java:S1192x"HDefine a constant instead of duplicating this literal "itemId" 10 times.(§ç¨W
+`	java:S112Z"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ
+`	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºþÿÿÿÿ
+Z	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+
+o
+java:S2293I"YReplace the type specification in this constructor call with the diamond operator ("<>").(óÎ³Ù
+v
+java:S1488:"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì
+e
+java:S1192ð"IDefine a constant instead of duplicating this literal "updated" 10 times.( øçüÿÿÿÿ
+S
+java:S11553">Use isEmpty() to check whether the collection is empty or not.(Á½¼s
+Y
+java:S1155M">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ
+`
+java:S1192´"IDefine a constant instead of duplicating this literal "created" 10 times.(Èæ¹Ý
+n
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÏßÉe
+P
+java:S1948".Make "oredCriteria" transient or serializable.(ßäü§ÿÿÿÿÿ8„À»œÉ/

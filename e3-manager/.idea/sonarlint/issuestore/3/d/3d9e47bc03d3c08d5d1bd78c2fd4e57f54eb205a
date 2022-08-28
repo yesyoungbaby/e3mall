@@ -1,0 +1,14 @@
+
+h
+java:S1192>"FDefine a constant instead of duplicating this literal ":BASE" 3 times.(ƒÍÅ±ùÿÿÿÿ8Ü¢´ÑØ/
+}
+java:S1488@"[Immediately return this expression instead of assigning it to the temporary variable "res".(ËœŠùÿÿÿÿ8´”°ÑØ/
+d
+java:S1192™"FDefine a constant instead of duplicating this literal ":DESC" 3 times.(À³à8…ÙÑØ/
+u	java:S1163"YRename this field "REDIS_ITEM_PRE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(è²Ãæ8Û½ÑØ/
+X	java:S125:"<This block of commented-out lines of code should be removed.(Áú°ş8 ĞÖ£Ø/
+y
+java:S1488›"[Immediately return this expression instead of assigning it to the temporary variable "res".(”öª8á·ÏÑØ/
+†
+java:S1488‡"cImmediately return this expression instead of assigning it to the temporary variable "textMessage".(Éî¨Úùÿÿÿÿ8ÉÆŠ¤Ø/
+}	java:S1165"\Rename this field "ITEM_CACHE_EXPIRE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­ƒ”Ğùÿÿÿÿ8Û½ÑØ/

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+	http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
+	http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.2.xsd">
+
+
+	<!-- spring和mybatis的整合：
+	 	 1.加载数据库属性文件
+	 	 配置3个bean
+	 	 2.配置数据库连接池
+	 	 3.配置sqlSessionFactory
+	 	 4.配置包扫描器MapperScannerConfigurer
+	 -->
+
+	<!-- 加载配置文件 -->
+	<context:property-placeholder location="classpath:conf/*.properties" />
+
+	<!-- 数据库连接池配置
+		dataSource 元素使用标准的 JDBC 数据源接口来配置 JDBC 连接对象的资源。-->
+	<!-- 使用阿里的druid数据库连接池，将其作为bean注入到spring容器-->
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+		  destroy-method="close">
+		<!-- 为连接池bean的属性设值，value是配置文件中db的相关属性-->
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<property name="driverClassName" value="${jdbc.driver}" />
+		<property name="maxActive" value="10" />
+		<property name="minIdle" value="5" />
+	</bean>
+
+	<!-- sqlSessionFactory是mybatis的核心
+		每个基于 MyBatis 的应用都是以一个 SqlSessionFactory 的实例为核心的-->
+	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<!-- sqlSessionFactory的属性1是
+				数据库连接池 -->
+		<property name="dataSource" ref="dataSource" />
+		<!--  加载mybatis配置文件-->
+		<property name="configLocation" value="classpath:mybatis/SqlMapConfig.xml" />
+	</bean>
+
+	<!-- 而创建 SqlSessionFactory的目的在于获取SqlSession
+			SqlSession提供了在数据库执行SQL命令所需的所有方法，
+			可以通过 SqlSession 实例来直接执行已映射的SQL语句，
+			但现在更常见的是sqlSession.getMapper(TbItemMapper.class)，
+			使用mapper接口来做dao层操作。-->
+
+	<!-- dao层包扫描器
+		 告诉 MyBatis 去哪里找映射文件，剩下的细节就应该是每个 SQL 映射文件了-->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="cn.e3.mapper" />
+	</bean>
+
+</beans>

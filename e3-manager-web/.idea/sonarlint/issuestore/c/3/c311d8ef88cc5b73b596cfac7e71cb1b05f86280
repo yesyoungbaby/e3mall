@@ -1,0 +1,13 @@
+
+e
+java:S4488+"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ë°ÊÆ8µ•¶çÉ/
+€
+java:S1488."^Immediately return this expression instead of assigning it to the temporary variable "result".(ßŠ÷õÿÿÿÿÿ8¿›ÓñÎ/
+w
+java:S1488!"\Immediately return this expression instead of assigning it to the temporary variable "item".(‹ãéúÿÿÿÿ
+M
+java:S1135"2Complete the task associated to this TODO comment.(öË…æùÿÿÿÿ
+l
+java:S44882"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(˜Ìˆ¿ıÿÿÿÿ8êÿÚñÎ/
+c
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(†§Ğışÿÿÿÿ

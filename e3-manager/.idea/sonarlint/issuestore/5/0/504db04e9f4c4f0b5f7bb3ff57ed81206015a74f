@@ -1,0 +1,28 @@
+
+o
+java:S2293H"YReplace the type specification in this constructor call with the diamond operator ("<>").(óÎ³Ù
+v
+java:S14889"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì
+^
+java:S1192…"GDefine a constant instead of duplicating this literal "title" 12 times.(ï¶“
+`	java:S112Y"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ
+S
+java:S11552">Use isEmpty() to check whether the collection is empty or not.(Á½¼s
+Y
+java:S1155L">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ
+a
+java:S1192‡"JDefine a constant instead of duplicating this literal "totalFee" 10 times.(Òõïí
+n
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÏßÉe
+`	java:S112`"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºþÿÿÿÿ
+P
+java:S1948".Make "oredCriteria" transient or serializable.(ßäü§ÿÿÿÿÿ8ˆµ½œÉ/
+^
+java:S1192½"HDefine a constant instead of duplicating this literal "itemId" 12 times.(§ç¨W
+`
+java:S1192ƒ"IDefine a constant instead of duplicating this literal "orderId" 12 times.(ÄæíÃ
+c
+java:S1192Ë"GDefine a constant instead of duplicating this literal "price" 10 times.(º ‘Öøÿÿÿÿ
+e
+java:S1192Ã"IDefine a constant instead of duplicating this literal "picPath" 12 times.(Ì†œ…üÿÿÿÿ
+Z	java:S112g"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤

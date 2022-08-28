@@ -1,0 +1,39 @@
+
+`	java:S112a"FDefine and throw a dedicated exception instead of using a generic one.(õÜ—ºşÿÿÿÿ
+`	java:S112Z"FDefine and throw a dedicated exception instead of using a generic one.(ÔÁñÍøÿÿÿÿ
+c
+java:S1192¨"MDefine a constant instead of duplicating this literal "receiverZip" 12 times.(üÀ€E
+Y
+java:S1155M">Use isEmpty() to check whether the collection is empty or not.(í´Õûüÿÿÿÿ
+Z	java:S112h"FDefine and throw a dedicated exception instead of using a generic one.(ìá¤
+
+_
+java:S1192x"IDefine a constant instead of duplicating this literal "orderId" 12 times.(ÄæíÃ
+l
+java:S1192Ê"PDefine a constant instead of duplicating this literal "receiverMobile" 12 times.(å¬ÛÎûÿÿÿÿ
+S
+java:S11553">Use isEmpty() to check whether the collection is empty or not.(Á½¼s
+n
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÏßÉe
+j
+java:S1192Ö"NDefine a constant instead of duplicating this literal "receiverCity" 12 times.(üİñ®ùÿÿÿÿ
+e
+java:S1192ª"IDefine a constant instead of duplicating this literal "updated" 10 times.( øçüÿÿÿÿ
+P
+java:S1948".Make "oredCriteria" transient or serializable.(ßäü§ÿÿÿÿÿ8­è½œÉ/
+o
+java:S2293I"YReplace the type specification in this constructor call with the diamond operator ("<>").(óÎ³Ù
+j
+java:S1192¾"NDefine a constant instead of duplicating this literal "receiverName" 12 times.(£­ÍÅşÿÿÿÿ
+v
+java:S1488:"`Immediately return this expression instead of assigning it to the temporary variable "criteria".(¶Õ¯ì
+k
+java:S1192"ODefine a constant instead of duplicating this literal "receiverState" 12 times.(Á‰‹øÿÿÿÿ
+n
+java:S1192œ"RDefine a constant instead of duplicating this literal "receiverDistrict" 12 times.(ì¾ôûÿÿÿÿ
+f
+java:S1192„"ODefine a constant instead of duplicating this literal "receiverPhone" 12 times.(ûÅ¹¾
+m
+java:S1192â"QDefine a constant instead of duplicating this literal "receiverAddress" 12 times.(Ûçà©ûÿÿÿÿ
+`
+java:S1192î"IDefine a constant instead of duplicating this literal "created" 10 times.(Èæ¹İ

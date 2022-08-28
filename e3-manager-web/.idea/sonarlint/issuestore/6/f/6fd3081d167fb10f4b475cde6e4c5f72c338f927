@@ -1,0 +1,10 @@
+
+Q
+java:S37402"/Provide the parametrized type for this generic.(¦ªçîøÿÿÿÿ8µùð‡Ì/
+a
+java:S1128"?Remove this unused import 'org.springframework.http.MediaType'.(úŸÝ¯þÿÿÿÿ8šº¨ˆÌ/
+Q
+java:S3740<"/Provide the parametrized type for this generic.(¦ªçîøÿÿÿÿ8µùð‡Ì/
+T
+java:S1135"2Complete the task associated to this TODO comment.(öË…æùÿÿÿÿ8µùð‡Ì/
+|	java:S116"[Rename this field "IMAGE_SERVER_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì’úÔÿÿÿÿÿ8µùð‡Ì/
