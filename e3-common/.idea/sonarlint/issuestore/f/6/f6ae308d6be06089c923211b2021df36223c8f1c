@@ -1,0 +1,14 @@
+
+v
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "str".(®øÉûÿÿÿÿ
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(²Äı“8ÜäğîÎ/
+V	java:S125"<This block of commented-out lines of code should be removed.(„¾“¹şÿÿÿÿ
+V	java:S125!"<This block of commented-out lines of code should be removed.(„¾“¹şÿÿÿÿ
+3
+java:S2119"Save and re-use this "Random".(¼İÅf
+p
+java:S1488'"ZImmediately return this expression instead of assigning it to the temporary variable "id".(¬“ —
+3
+java:S2119#"Save and re-use this "Random".(¼İÅf
+N
+java:S2130'"8Use "Long.parseLong" for this string-to-long conversion.(¬“ —

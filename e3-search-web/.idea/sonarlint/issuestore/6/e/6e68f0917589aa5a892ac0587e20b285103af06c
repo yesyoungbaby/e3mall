@@ -1,0 +1,8 @@
+
+T
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(†°›œ8í„üÿ×/
+V
+java:S1128";Remove this unused import 'javassist.compiler.ast.Keyword'.(ù×šÃ8í„üÿ×/
+Y
+java:S4719">Replace charset name argument with StandardCharsets.ISO_8859_1(†°›œ8í„üÿ×/
+w	java:S116"]Rename this field "SEARCH_RESULT_ROWS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦–šß8üÇËßÖ/

@@ -1,0 +1,9 @@
+
+N
+java:S2589à"7Remove this expression which always evaluates to "true"(Ÿµÿ«
+P
+java:S1118":Add a private constructor to hide the implicit public one.(¥ß÷
+H
+java:S2692à"10 is a valid index, but is ignored by this check.(Ÿµÿ«
+O	java:S106¹"9Replace this use of System.out or System.err by a logger.(öÇå·
+O	java:S106›"9Replace this use of System.out or System.err by a logger.(öÇå·
