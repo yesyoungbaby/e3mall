@@ -1,0 +1,14 @@
+80：manager
+81：manager-web
+82  portal-web 伪静态化配置
+83：content
+84：search
+85：search-web 伪静态化配置
+86：item-web   伪静态化
+87：sso
+88：sso-web
+89: cart
+90：cart-web
+启动顺序：
+manager  content  search  sso  cart
+portal-web  search-web  item-web  sso-web  cart-web
